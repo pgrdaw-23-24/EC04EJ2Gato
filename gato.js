@@ -1,3 +1,7 @@
+function aleatorio(n) {
+    return Math.round(n / 2 + Math.random() * n)
+}
+
 let gato = {
     hambre: 50,
     cansancio: 50,
@@ -19,8 +23,5 @@ let gato = {
     jugar: function () { this.felicidad += aleatorio(10) },
 }
 
-function aleatorio(n) {
-    return Math.round(n / 2 + Math.random() * n)
-}
 
 module.exports = { gato }
