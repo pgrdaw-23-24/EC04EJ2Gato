@@ -23,5 +23,4 @@ let gato = {
     jugar: function () { this.felicidad += aleatorio(10) },
 }
 
-
 module.exports = { gato }
