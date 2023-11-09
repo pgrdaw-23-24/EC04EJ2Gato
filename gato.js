@@ -1,5 +1,5 @@
 function aleatorio(n) {
-    return Math.round(n / 2 + Math.random() * n)
+    return Math.round(2 * n * Math.random())
 }
 
 let gato = {

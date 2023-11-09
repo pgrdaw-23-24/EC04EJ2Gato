@@ -17,7 +17,7 @@ console.log('comer, dormir y jugar: ',gato1.estado())
 
 //gato2
 console.log('\n*** gato2 ***')
-gato2.tiempo(20)
+gato2.tiempo(10)
 console.log('pasado un tiempo:      ',gato2.estado())
 gato2.comer(); gato2.dormir(); gato2.jugar()
 console.log('comer, dormir y jugar: ',gato2.estado())
