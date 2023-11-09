@@ -1,4 +1,4 @@
-import Gato from './gato.js'
+import Gato from './Gato.js'
 
 let gato1 = new Gato()
 let gato2 = new Gato()
